@@ -1,0 +1,23 @@
+h1{
+  font-size: 40pt;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.center{
+  text-align: center;
+}
+
+textarea{
+  width: 90%;
+  padding: 20px;
+  border:solid 1px #ddd;
+}
+
+.btn{
+  background: dodgerblue;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
