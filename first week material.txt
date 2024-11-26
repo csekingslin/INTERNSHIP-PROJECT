@@ -1,0 +1,149 @@
+html: day - 1 & 2
+_________________
+<html> – Defines the root of the HTML document.
+<head> – Contains meta-information like title, links to stylesheets, and scripts.
+<body> – Contains the visible content of the webpage.
+<title> – Sets the title of the webpage, displayed in the browser's tab.
+<h1> to <h6> – Define headers, with <h1> being the most important and <h6> the least.
+<p> – Defines a paragraph of text.
+<a> – Defines a hyperlink to another page or resource.
+<img> – Embeds an image in the document.
+<ul> – Defines an unordered (bulleted) list.
+<ol> – Defines an ordered (numbered) list.
+<li> – Defines a list item (used inside <ul> or <ol>).
+<div> – Defines a division or section of content, used for grouping and styling.
+<span> – Defines a small portion of text, often used for styling.
+<form> – Defines an HTML form for user input.
+<input> – Defines an input field inside a form for user interaction.
+<button> – Defines a clickable button for submitting forms or triggering actions.
+<table> – Defines a table to display data in rows and columns.
+<tr> – Defines a row in a table.
+<td> – Defines a cell in a table (used inside <tr>).
+<iframe> – Embeds another webpage or content within the current page.
+
+css: day - 3
+____________
+CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a web page written in HTML. It defines the visual appearance of elements on a page, such as layout, colors, fonts, spacing, and positioning.
+
+Bootstrap is a front-end framework (built with HTML, CSS, and JavaScript) that provides pre-built components and a grid system to help developers create responsive and mobile-first web pages faster.
+
+javascript day - 4 & 6
+______________________
+
+Set of JavaScript basic syntax to add, execute and write basic programming paradigms in Javascript 
+On Page Script
+
+Adding internal JavaScript to HTML
+
+<script type="text/javascript"> //JS code goes here </script>
+
+External JS File
+__________________
+
+Adding external JavaScript to HTML
+
+<script src="filename.js"></script>
+
+Functions
+
+JavaScript Function syntax
+
+function nameOfFunction() {
+    // function body 
+}
+
+Output
+_______
+
+This will print the value of a in JavaScript console
+
+console.log(a);
+
+Conditional Statements
+________________________
+
+Conditional statements are used to perform operations based on some conditions.
+If Statement
+
+The block of code to be executed, when the condition specified is true.
+
+if (condition) {
+    // block of code to be executed if the condition is true
+}
+
+If-else Statement
+
+If the condition for the if block is false, then the else block will be executed.
+
+if (condition) {
+    // block of code to be executed if the condition is true
+} else {
+    // block of code to be executed if the condition is false
+}
+
+Else-if Statement
+_____________________
+
+A basic if-else ladder
+
+if (condition1) {
+    // block of code to be executed if condition1 is true
+} else if (condition2) {
+    // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+    // block of code to be executed if the condition1 is false and condition2 is false
+}
+
+Switch Statement
+
+Switch case statement in JavaScript
+
+switch (expression) {
+    case x:
+        // code block
+        break;
+    case y:
+        // code block
+        break;
+    default:
+        // code block
+}
+
+Iterative Statements (Loops)
+_____________________________
+
+Iterative statement facilitates programmer to execute any block of code lines repeatedly and can be controlled as per conditions added by the programmer.
+
+For Loop
+_________
+For loop syntax in javascript
+
+for (initialization; condition; incrementation;) {
+    // code block to be executed
+}
+
+Example:
+
+for (let i = 0; i < 5; i++) {
+    text += "Iteration number: " + i + "<br>";
+}
+
+While Loop
+___________
+
+Runs the code till the specified condition is true
+
+while (condition) {
+    // code block to be executed
+}
+
+Do While Loop
+_____________
+
+A do while loop is executed at least once despite the condition being true or false
+
+do {
+    // run this code in block
+    i++;
+} while (condition);
+
